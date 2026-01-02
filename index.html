@@ -173,7 +173,7 @@
     </div>
 
     <script>
-        // --- DOT MESH LOGIC ---
+        
         const canvas = document.getElementById('warp-canvas');
         const ctx = canvas.getContext('2d');
         let points = [];
@@ -218,7 +218,7 @@
         window.addEventListener('resize', init);
         init(); animate();
 
-        // --- ENTRANCE LOGIC ---
+        // entrance logic
         window.addEventListener('DOMContentLoaded', () => {
             const tl = anime.timeline({ easing: 'easeOutExpo', duration: 1200 });
             tl.add({ targets: '.hero-name', translateX: [100, 0], opacity: [0, 1], delay: 300 })
@@ -226,7 +226,7 @@
               .add({ targets: '.hero-sub', translateY: [30, 0], opacity: [0, 1] }, '-=800');
         });
 
-        // --- SKILLS REVEAL (LEFT TO RIGHT) ---
+        // slide from left to right of the skills
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -246,7 +246,7 @@
 
         observer.observe(document.querySelector('#skills'));
 
-        // Smooth Nav
+        // the smooth nav
         document.querySelectorAll('.nav-link').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
