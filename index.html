@@ -46,6 +46,10 @@
             position: relative;
             z-index: 10;
         }
+
+        .reveal-card {
+            transition: all 0.3s ease;
+        }
     </style>
 </head>
 <body class="text-white">
@@ -115,28 +119,28 @@
                 </div>
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
-                    <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card">
-                        <div class="w-10 h-10 bg-yellow-500/10 rounded-lg flex items-center justify-center mr-4 group-hover:scale-110 transition-transform"><span class="text-yellow-500 font-bold text-sm">JS</span></div>
+                    <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card hover:border-yellow-500">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="w-8 h-8 mr-4 group-hover:scale-110 transition-transform" alt="JS">
                         <h4 class="font-bold text-white text-[13px]">JavaScript</h4>
                     </div>
-                    <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card">
-                        <div class="w-10 h-10 bg-blue-400/10 rounded-lg flex items-center justify-center mr-4 group-hover:scale-110 transition-transform"><span class="text-blue-400 font-bold text-sm">RJ</span></div>
+                    <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card hover:border-cyan-400">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="w-8 h-8 mr-4 group-hover:scale-110 transition-transform" alt="React">
                         <h4 class="font-bold text-white text-[13px]">React.js</h4>
                     </div>
-                    <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card">
-                        <div class="w-10 h-10 bg-red-500/10 rounded-lg flex items-center justify-center mr-4 group-hover:scale-110 transition-transform"><span class="text-red-500 font-bold text-sm">PH</span></div>
+                    <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card hover:border-red-500">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" class="w-8 h-8 mr-4 group-hover:scale-110 transition-transform" alt="Laravel">
                         <h4 class="font-bold text-white text-[13px]">Laravel / CI4</h4>
                     </div>
-                    <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card">
-                        <div class="w-10 h-10 bg-cyan-400/10 rounded-lg flex items-center justify-center mr-4 group-hover:scale-110 transition-transform"><span class="text-cyan-400 font-bold text-sm">TC</span></div>
+                    <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card hover:border-teal-400">
+                        <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" class="w-8 h-8 mr-4 group-hover:scale-110 transition-transform" alt="Tailwind">
                         <h4 class="font-bold text-white text-[13px]">TailwindCSS</h4>
                     </div>
-                    <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card">
-                        <div class="w-10 h-10 bg-blue-600/10 rounded-lg flex items-center justify-center mr-4 group-hover:scale-110 transition-transform"><span class="text-blue-600 font-bold text-sm">MY</span></div>
+                    <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card hover:border-blue-600">
+                        <img src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" class="w-8 h-8 mr-4 group-hover:scale-110 transition-transform" alt="MySQL">
                         <h4 class="font-bold text-white text-[13px]">MySQL</h4>
                     </div>
-                    <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card">
-                        <div class="w-10 h-10 bg-green-500/10 rounded-lg flex items-center justify-center mr-4 group-hover:scale-110 transition-transform"><span class="text-green-500 font-bold text-sm">MG</span></div>
+                    <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card hover:border-green-500">
+                        <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" class="w-8 h-8 mr-4 group-hover:scale-110 transition-transform" alt="MongoDB">
                         <h4 class="font-bold text-white text-[13px]">MongoDB</h4>
                     </div>
                 </div>
@@ -146,22 +150,31 @@
                 </div>
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                    <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card">
-                        <div class="w-10 h-10 bg-orange-500/10 rounded-lg flex items-center justify-center mr-4 group-hover:scale-110 transition-transform"><span class="text-orange-500 font-bold text-sm">GH</span></div>
-                        <h4 class="font-bold text-white text-[13px]">Git / GitHub</h4>
-                    </div>
-                    <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card">
-                        <div class="w-10 h-10 bg-purple-500/10 rounded-lg flex items-center justify-center mr-4 group-hover:scale-110 transition-transform"><span class="text-purple-500 font-bold text-sm">FG</span></div>
-                        <h4 class="font-bold text-white text-[13px]">Figma</h4>
-                    </div>
-                    <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card">
-                        <div class="w-10 h-10 bg-yellow-600/10 rounded-lg flex items-center justify-center mr-4 group-hover:scale-110 transition-transform"><span class="text-yellow-600 font-bold text-sm">PB</span></div>
-                        <h4 class="font-bold text-white text-[13px]">PowerBI</h4>
-                    </div>
-                    <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card">
-                        <div class="w-10 h-10 bg-green-400/10 rounded-lg flex items-center justify-center mr-4 group-hover:scale-110 transition-transform"><span class="text-green-400 font-bold text-sm">QV</span></div>
-                        <h4 class="font-bold text-white text-[13px]">QlikView</h4>
-                    </div>
+                <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card hover:border-orange-500">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="w-8 h-8 mr-4 group-hover:scale-110 transition-transform" alt="Git">
+                    <h4 class="font-bold text-white text-[13px]">Git / GitHub</h4>
+                </div>
+                
+                <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card hover:border-purple-500">
+                    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" class="w-8 h-8 mr-4 group-hover:scale-110 transition-transform" alt="Figma">
+                    <h4 class="font-bold text-white text-[13px]">Figma</h4>
+                </div>
+
+                <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card hover:border-yellow-600">
+                    <svg class="w-8 h-8 mr-4 group-hover:scale-110 transition-transform" viewBox="0 0 32 32">
+                        <path fill="#F2C811" d="M10 12h4v16h-4z"/>
+                        <path fill="#E6AD10" d="M16 4h4v24h-4z"/>
+                        <path fill="#C8910D" d="M22 8h4v20h-4z"/>
+                    </svg>
+                    <h4 class="font-bold text-white text-[13px]">PowerBI</h4>
+                </div>
+
+                <div class="flex items-center p-4 bg-[#0A0A0A] border border-white/5 rounded-2xl group reveal-card hover:border-lime-500">
+                    <svg class="w-8 h-8 mr-4 group-hover:scale-110 transition-transform" viewBox="0 0 24 24">
+                        <path fill="#7DB72F" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                        <circle fill="#7DB72F" cx="12" cy="12" r="5"/>
+                    </svg>
+                    <h4 class="font-bold text-white text-[13px]">QlikView</h4>
                 </div>
             </div>
         </section>
@@ -218,7 +231,7 @@
         window.addEventListener('resize', init);
         init(); animate();
 
-        // entrance logic
+        // entrance logic 
         window.addEventListener('DOMContentLoaded', () => {
             const tl = anime.timeline({ easing: 'easeOutExpo', duration: 1200 });
             tl.add({ targets: '.hero-name', translateX: [100, 0], opacity: [0, 1], delay: 300 })
@@ -226,7 +239,7 @@
               .add({ targets: '.hero-sub', translateY: [30, 0], opacity: [0, 1] }, '-=800');
         });
 
-        // slide from left to right of the skills
+        // skills reveal 
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -246,7 +259,7 @@
 
         observer.observe(document.querySelector('#skills'));
 
-        // the smooth nav
+        // smooth nav
         document.querySelectorAll('.nav-link').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
